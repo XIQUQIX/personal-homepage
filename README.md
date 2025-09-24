@@ -3,7 +3,7 @@ Implementing this homepage using vanilla HTML5, CSS3 and ES6+.
 
 # Data Science Commander - Personal Homepage
 
-![Project Banner](./assets/screenshot-main.png)
+https://personalhomepage0.netlify.app/
 
 ## Author
 
