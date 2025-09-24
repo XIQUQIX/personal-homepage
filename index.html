@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name - Data Science Graduate">
+    <meta name="description" content="Professional homepage showcasing expertise in Computer Vision, YOLO models, and RAG applications. NEU Data Science graduate specializing in AI/ML solutions.">
+    <meta name="keywords" content="Data Science, Computer Vision, YOLO, RAG, Machine Learning, Python, AI">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    
+    <title>Sun's Dashboard | Data Science & AI Specialist</title>
+    
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="./css/main.css" as="style">
+    <link rel="preload" href="./js/main.js" as="script">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="command-nav">
+        <div id="time"></div>
+
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="nav-designation">NEU - Data Science</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">My projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">My Profile</a>
+                </li>
+            </ul>
+            <div class="nav-status">
+                <span class="status-indicator online"></span>
+                <span class="status-text">SYSTEMS ONLINE</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Command Center -->
+    <main class="command-center">
+        <!-- Hero Section - Command Bridge -->
+        <section class="hero-section command-bridge">
+            <div class="radar-sweep"></div>
+            <div class="hero-container">
+                <div class="commander-profile">
+                    <div class="profile-hud">
+                        <div class="profile-avatar">
+                            <img src="./images/profile.jpg" alt="My Profile" class="avatar-image">
+                            <div class="hud-ring"></div>
+                            <!-- <div class="hud-crosshair"></div> -->
+                        </div>
+                        <div class="profile-status">
+                            <h1 class="commander-title">"Master" of Data Science</h1>
+                            <p class="commander-subtitle">Specializing in CV • RAG • YOLO</p>
+                            <div class="rank-insignia">
+                                <span class="rank">NEU Graduate</span>
+                                <!-- <span class="specialization">CV • RAG • YOLO</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class="tactical-overview">
+                    <div class="skills-radar">
+                        <h2 class="radar-title">Combat Systems</h2>
+                        <div class="radar-container">
+                            <canvas id="skillsRadar" class="radar-display"></canvas>
+                            <div class="radar-labels">
+                                <div class="skill-label" data-skill="python">Python</div>
+                                <div class="skill-label" data-skill="yolo">YOLO</div>
+                                <div class="skill-label" data-skill="rag">RAG</div>
+                                <div class="skill-label" data-skill="cv">Computer Vision</div>
+                                <div class="skill-label" data-skill="ml">Machine Learning</div>
+                                <div class="skill-label" data-skill="ai">AI Systems</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <!-- YOLO Demo Section - Weapons System
+        <section class="demo-section weapons-system">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-prefix">YOLO Target Detection</span>
+                        
+                    </h2>
+                    <div class="system-status">
+                        <span class="status-dot active"></span>
+                        <span>OPERATIONAL</span>
+                    </div>
+                </div>
+                
+                <div class="demo-interface">
+                    <div class="upload-zone">
+                        <div class="upload-area" id="imageUpload">
+                            <div class="upload-icon">📷</div>
+                            <p class="upload-text">Deploy Target Image</p>
+                            <p class="upload-subtext">Click or drag to upload</p>
+                            <input type="file" id="imageInput" accept="image/*" hidden>
+                        </div>
+                    </div>
+                    
+                    <div class="detection-display">
+                        <div class="display-screen">
+                            <div class="screen-overlay"></div>
+                            <canvas id="detectionCanvas" class="detection-canvas"></canvas>
+                            <img id="detectionImage" class="detection-image" alt="Target analysis">
+                        </div>
+                        <div class="detection-controls">
+                            <button class="control-btn" id="detectBtn" disabled>
+                                <span class="btn-icon">🎯</span>
+                                ENGAGE TARGETS
+                            </button>
+                            <button class="control-btn secondary" id="clearBtn">
+                                <span class="btn-icon">🔄</span>
+                                RESET
+                            </button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="detection-results">
+                    <div class="results-panel">
+                        <h3 class="results-title">Target Analysis</h3>
+                        <div id="detectionResults" class="results-list">
+                            <div class="no-results">Awaiting target deployment...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Projects Section - Fleet Command -->
+        <section class="projects-section fleet-command">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-prefix">AI-Driven Innovation in Vision and Knowledge Systems</span>
+                    </h2>
+                </div>
+
+                <div class="fleet-formation">
+                    <div class="vessel-card flagship" data-project="yolo-cv">
+                        <div class="vessel-hull">
+                            <div class="vessel-icon">🎯</div>
+                            <h3 class="vessel-name">CV</h3>
+                            <p class="vessel-class">Computer Vision & YOLO Detection</p>
+                            <div class="vessel-specs">
+                                <span class="spec">Python</span>
+                                <span class="spec">YOLOv8</span>
+                                <span class="spec">OpenCV</span>
+                                <span class="spec">PyTorch</span>
+                            </div>
+                            <div class="vessel-status operational">ACTIVE</div>
+                        </div>
+                    </div>
+
+                    <div class="vessel-card destroyer" data-project="rag-system">
+                        <div class="vessel-hull">
+                            <div class="vessel-icon">🤖</div>
+                            <h3 class="vessel-name">RAG</h3>
+                            <p class="vessel-class">Knowledge Base & Q&A Systems</p>
+                            <div class="vessel-specs">
+                                <span class="spec">LangChain</span>
+                                <span class="spec">Vector DB</span>
+                                <span class="spec">OpenAI</span>
+                                <span class="spec">FastAPI</span>
+                            </div>
+                            <div class="vessel-status operational">ACTIVE</div>
+                        </div>
+                    </div>
+
+                    <div class="vessel-card cruiser" data-project="ml-pipeline">
+                        <div class="vessel-hull">
+                            <div class="vessel-icon">⚙️</div>
+                            <h3 class="vessel-name">ML</h3>
+                            <p class="vessel-class">End-to-End ML Pipeline</p>
+                            <div class="vessel-specs">
+                                <span class="spec">Scikit-learn</span>
+                                <span class="spec">Docker</span>
+                                <span class="spec">AWS</span>
+                                <span class="spec">MLflow</span>
+                            </div>
+                            <div class="vessel-status maintenance">DEPLOYED</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fleet-actions">
+                    <a href="projects.html" class="action-btn primary">
+                        <span class="btn-icon">📊</span>
+                        View My Projects
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Contact Section - Communications -->
+    <section class="contact-section communications">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    
+                    Contacts
+                </h2>
+            </div>
+
+            <div class="communications-panel">
+                <div class="comm-channels">
+                    <a href="mailto:sun.rongj@northeastern.edu" class="comm-link">
+                        <div class="comm-icon">📧</div>
+                        <div class="comm-details">
+                            <span class="comm-type">Email adress</span>
+                            <span class="comm-address">sun.rongj@northeastern.edu</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/rongjia-sun-7337432b9/" class="comm-link" target="_blank">
+                        <div class="comm-icon">💼</div>
+                        <div class="comm-details">
+                            <span class="comm-type">Professional Network</span>
+                            <span class="comm-address">https://www.linkedin.com/in/rongjia-sun-7337432b9/</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/XIQUQIX" class="comm-link" target="_blank">
+                        <div class="comm-icon">💻</div>
+                        <div class="comm-details">
+                            <span class="comm-type">Code Repository</span>
+                            <span class="comm-address">https://github.com/XIQUQIX</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="location-beacon">
+                    <div class="beacon-pulse"></div>
+                    <div class="location-info">
+                        <span class="location-label">Current Position</span>
+                        <span class="location-coords">Boston, MA Area</span>
+                        <span class="availability-status">Available for Deployment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="command-footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>&copy; 2024 Data Science Command Center. All systems operational.</p>
+                <p>Built with vanilla HTML5, CSS3, and ES6+ modules</p>
+            </div>
+            <div class="footer-status">
+                <span class="system-time" id="systemTime"></span>
+                <span class="status-indicator online"></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/yolo-demo.js"></script>
+    <script type="module" src="./js/radar-chart.js"></script>
+    <script type="module" src="./js/rag-qa.js"></script>
+    
+</body>
+</html>

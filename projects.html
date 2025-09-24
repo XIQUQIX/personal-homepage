@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Your Name - Data Science Graduate" />
+    <meta
+      name="description"
+      content="Detailed showcase of AI and ML projects including YOLO object detection, RAG systems, and computer vision applications."
+    />
+    <meta
+      name="keywords"
+      content="AI Projects, Machine Learning Portfolio, YOLO Detection, RAG Applications"
+    />
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <title>Fleet Operations | Project Portfolio</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/animations.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="command-nav">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="nav-designation">NEU - Data Science</span>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Dashboard</a>
+          </li>
+          <li class="nav-item active">
+            <a href="projects.html" class="nav-link">My projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">My Profile</a>
+          </li>
+        </ul>
+        <div class="nav-status">
+          <span class="status-indicator online"></span>
+          <span class="status-text">SYSTEMS ONLINE</span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="projects-main">
+      <!-- Header Section -->
+      <section class="projects-header">
+        <div class="section-container">
+          <h1 class="page-title">
+            <span class="title-prefix">Innovative AI/ML Solutions</span>
+          </h1>
+          <p class="page-subtitle">
+            Advanced AI/ML systems deployed across multiple operational
+            circumstances
+          </p>
+
+          <div class="fleet-stats">
+            <div class="stat-item">
+              <span class="stat-number">7</span>
+              <span class="stat-label">Projects Deployed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">4</span>
+              <span class="stat-label">Active Systems</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">95%</span>
+              <span class="stat-label">Success Rate</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Project -->
+      <section class="featured-project">
+        <div class="section-container">
+          <div class="project-showcase">
+            <!-- <div class="project-media">
+                        <div class="media-container">
+                            <img src="./images/yolo-demo.jpg" alt="YOLO Object Detection Demo" class="project-image">
+                            <div class="media-overlay">
+                                <button class="play-demo-btn">
+                                    <span class="play-icon">▶</span>
+                                    View Live Demo
+                                </button>
+                            </div>
+                        </div>
+                    </div> -->
+
+            <div class="project-media">
+              <div class="media-container">
+                <!-- use mp4 type video -->
+                <img
+                  src="./images/yolo-demo.jpg"
+                  alt="YOLO Object Detection Demo"
+                  class="project-image"
+                  id="demoImage"
+                />
+
+                <video
+                  id="demoVideo"
+                  class="project-video"
+                  controls
+                  style="display: none; width: 100%; height: auto"
+                >
+                  <source src="./videos/demo.mp4" type="video/mp4" />
+                  Your browser does not support video playback.
+                </video>
+
+                <div class="media-overlay">
+                  <button class="play-demo-btn" id="playDemoBtn">
+                    <span class="play-icon">▶</span>
+                    View Live Demo
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details">
+              <div class="project-badge flagship">FLAGSHIP PROJECT</div>
+              <h2 class="project-title">YOLO - Advanced Object Detection</h2>
+              <p class="project-description">
+                A comprehensive computer vision system utilizing YOLOv11n for
+                real-time object detection and classification. Features
+                detecting free diving swimmers, and deployment pipeline with
+                95%+ accuracy across several platforms.
+              </p>
+
+              <div class="project-tech">
+                <h4>System Requirement:</h4>
+                <div class="tech-stack">
+                  <span class="tech-tag primary">Python</span>
+                  <span class="tech-tag primary">YOLOv11</span>
+                  <span class="tech-tag">PyTorch</span>
+                  <span class="tech-tag">OpenCV</span>
+                  <span class="tech-tag">Ultralytics</span>
+                  <span class="tech-tag">ONNX</span>
+                </div>
+              </div>
+
+              <div class="project-metrics">
+                <div class="metric">
+                  <span class="metric-value">95.3%</span>
+                  <span class="metric-label">mAP@0.5</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">19ms</span>
+                  <span class="metric-label">Inference Time</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">2</span>
+                  <span class="metric-label">Object Classes</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="#" class="action-btn primary">
+                  <span class="btn-icon">🔗</span>
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/XIQUQIX/YOLO-v11n-free-diving-detection"
+                  class="action-btn secondary"
+                  target="_blank"
+                >
+                  <span class="btn-icon">📁</span>
+                  GitHub Repo
+                </a>
+                <a href="#" class="action-btn secondary">
+                  <span class="btn-icon">📄</span>
+                  Technical Report
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Grid -->
+      <section class="projects-grid">
+        <div class="section-container">
+          <h2 class="section-title">Other projects</h2>
+
+          <div class="filter-controls">
+            <button class="filter-btn active" data-filter="all">
+              All Systems
+            </button>
+            <button class="filter-btn" data-filter="cv">Computer Vision</button>
+            <button class="filter-btn" data-filter="rag">
+              RAG Applications
+            </button>
+            <button class="filter-btn" data-filter="ml">
+              Machine Learning
+            </button>
+            <button class="filter-btn" data-filter="web">
+              Web Applications
+            </button>
+          </div>
+
+          <div class="projects-fleet">
+            <!-- RAG System Project -->
+            <article class="project-vessel" data-category="rag">
+              <div class="vessel-header">
+                <div class="vessel-icon">🤖</div>
+                <div class="vessel-status operational">OPERATIONAL</div>
+              </div>
+              <div class="vessel-content">
+                <h3 class="vessel-name">RAG Intelligence</h3>
+                <p class="vessel-class">
+                  Advanced Knowledge Retrieval & Q&A System
+                </p>
+                <p class="vessel-description">
+                  Intelligent document processing and question-answering system
+                  using RAG architecture. Features vector embeddings, semantic
+                  search, and context-aware response generation.
+                </p>
+                <div class="vessel-specs">
+                  <span class="spec">LangChain</span>
+                  <span class="spec">ChromaDB</span>
+                  <span class="spec">OpenAI API</span>
+                  <span class="spec">FastAPI</span>
+                  <span class="spec">Streamlit</span>
+                </div>
+              </div>
+              <div class="vessel-actions">
+                <a href="#" class="vessel-link">View Details</a>
+                <a href="#" class="vessel-link">GitHub</a>
+              </div>
+            </article>
+
+            <!-- ML Pipeline Project -->
+            <article class="project-vessel cruiser" data-category="ml">
+              <div class="vessel-header">
+                <div class="vessel-icon">⚙️</div>
+                <div class="vessel-status operational">DEPLOYED</div>
+              </div>
+              <div class="vessel-content">
+                <h3 class="vessel-name">ML Pipeline</h3>
+                <p class="vessel-class">End-to-End Machine Learning Pipeline</p>
+                <p class="vessel-description">
+                  Automated ML pipeline for data preprocessing, model training,
+                  validation, and deployment. Includes MLOps practices with
+                  monitoring and model versioning.
+                </p>
+                <div class="vessel-specs">
+                  <span class="spec">Scikit-learn</span>
+                  <span class="spec">MLflow</span>
+                  <span class="spec">Docker</span>
+                  <span class="spec">AWS</span>
+                  <span class="spec">Apache Airflow</span>
+                </div>
+              </div>
+              <div class="vessel-actions">
+                <a href="#" class="vessel-link">View Details</a>
+                <a href="#" class="vessel-link">GitHub</a>
+              </div>
+            </article>
+
+            <!-- Computer Vision Project -->
+            <article class="project-vessel frigate" data-category="cv">
+              <div class="vessel-header">
+                <div class="vessel-icon">👁️</div>
+                <div class="vessel-status operational">ACTIVE</div>
+              </div>
+              <div class="vessel-content">
+                <h3 class="vessel-name">CV Surveillance</h3>
+                <p class="vessel-class">Real-time Video Analysis System</p>
+                <p class="vessel-description">
+                  Real-time video processing system for object tracking,
+                  behavior analysis, and anomaly detection using advanced
+                  computer vision techniques.
+                </p>
+                <div class="vessel-specs">
+                  <span class="spec">OpenCV</span>
+                  <span class="spec">MediaPipe</span>
+                  <span class="spec">TensorFlow</span>
+                  <span class="spec">WebRTC</span>
+                </div>
+              </div>
+              <div class="vessel-actions">
+                <a href="#" class="vessel-link">View Details</a>
+                <a href="#" class="vessel-link">GitHub</a>
+              </div>
+            </article>
+
+            <!-- NLP Project -->
+            <article class="project-vessel corvette" data-category="rag ml">
+              <div class="vessel-header">
+                <div class="vessel-icon">📝</div>
+                <div class="vessel-status maintenance">STANDBY</div>
+              </div>
+              <div class="vessel-content">
+                <h3 class="vessel-name">NLP Processing</h3>
+                <p class="vessel-class">
+                  Text Analysis & Sentiment Classification
+                </p>
+                <p class="vessel-description">
+                  Natural language processing system for sentiment analysis,
+                  text classification, and automated content moderation with
+                  multilingual support.
+                </p>
+                <div class="vessel-specs">
+                  <span class="spec">Transformers</span>
+                  <span class="spec">spaCy</span>
+                  <span class="spec">BERT</span>
+                  <span class="spec">Flask</span>
+                </div>
+              </div>
+              <div class="vessel-actions">
+                <a href="#" class="vessel-link">View Details</a>
+                <a href="#" class="vessel-link">GitHub</a>
+              </div>
+            </article>
+
+            <!-- Web Application -->
+            <article class="project-vessel patrol" data-category="web">
+              <div class="vessel-header">
+                <div class="vessel-icon">🌐</div>
+                <div class="vessel-status operational">LIVE</div>
+              </div>
+              <div class="vessel-content">
+                <h3 class="vessel-name">Web Command</h3>
+                <p class="vessel-class">
+                  Full-Stack Data Visualization Platform
+                </p>
+                <p class="vessel-description">
+                  Interactive dashboard for data visualization and analysis with
+                  real-time updates, user authentication, and responsive design.
+                </p>
+                <div class="vessel-specs">
+                  <span class="spec">React</span>
+                  <span class="spec">D3.js</span>
+                  <span class="spec">Node.js</span>
+                  <span class="spec">MongoDB</span>
+                </div>
+              </div>
+              <div class="vessel-actions">
+                <a href="#" class="vessel-link">View Details</a>
+                <a href="#" class="vessel-link">GitHub</a>
+              </div>
+            </article>
+
+            <!-- Research Project -->
+            <article class="project-vessel research" data-category="ml cv">
+              <div class="vessel-header">
+                <div class="vessel-icon">🔬</div>
+                <div class="vessel-status development">RESEARCH</div>
+              </div>
+              <div class="vessel-content">
+                <h3 class="vessel-name">Research Vessel</h3>
+                <p class="vessel-class">
+                  Advanced Neural Architecture Research
+                </p>
+                <p class="vessel-description">
+                  Experimental research on novel neural network architectures
+                  for improved efficiency in computer vision tasks. Published
+                  findings at academic conferences.
+                </p>
+                <div class="vessel-specs">
+                  <span class="spec">PyTorch</span>
+                  <span class="spec">Weights & Biases</span>
+                  <span class="spec">Jupyter</span>
+                  <span class="spec">CUDA</span>
+                </div>
+              </div>
+              <div class="vessel-actions">
+                <a href="#" class="vessel-link">Research Paper</a>
+                <a href="#" class="vessel-link">GitHub</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technical Skills Section -->
+      <section class="technical-arsenal">
+        <div class="section-container">
+          <h2 class="section-title">Technical Arsenal</h2>
+          <div class="arsenal-grid">
+            <div class="weapon-system">
+              <h3 class="system-name">Deep Learning Frameworks</h3>
+              <div class="system-components">
+                <span class="component expert">PyTorch</span>
+                <span class="component expert">TensorFlow</span>
+                <span class="component advanced">Keras</span>
+                <span class="component advanced">Ultralytics</span>
+              </div>
+            </div>
+
+            <div class="weapon-system">
+              <h3 class="system-name">Computer Vision</h3>
+              <div class="system-components">
+                <span class="component expert">YOLO (v5-v8)</span>
+                <span class="component expert">OpenCV</span>
+                <span class="component advanced">MediaPipe</span>
+                <span class="component intermediate">MLflow</span>
+                <span class="component intermediate">GitHub Actions</span>
+              </div>
+            </div>
+
+            <div class="weapon-system">
+              <h3 class="system-name">RAG & LLM</h3>
+              <div class="system-components">
+                <span class="component expert">LangChain</span>
+                <span class="component advanced">ChromaDB</span>
+                <span class="component advanced">OpenAI API</span>
+                <span class="component intermediate">Pinecone</span>
+              </div>
+            </div>
+
+            <div class="weapon-system">
+              <h3 class="system-name">MLOps & Deployment</h3>
+              <div class="system-components">
+                <span class="component advanced">Docker</span>
+                <span class="component advanced">AWS</span>
+                <span class="component intermediate">Apache Airflow</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="command-footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <p>
+            &copy; 2024 Data Science Command Center. All systems operational.
+          </p>
+          <p>Built with vanilla HTML5, CSS3, and ES6+ modules</p>
+        </div>
+        <div class="footer-status">
+          <span class="system-time" id="systemTime"></span>
+          <span class="status-indicator online"></span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const playBtn = document.getElementById("playDemoBtn");
+        const demoImage = document.getElementById("demoImage");
+        const demoVideo = document.getElementById("demoVideo");
+
+        playBtn.addEventListener("click", () => {
+          demoImage.style.display = "none"; // 隐藏封面图
+          demoVideo.style.display = "block"; // 显示视频
+          demoVideo.play(); // 自动播放
+        });
+      });
+    </script>
+
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/projects-filter.js"></script>
+  </body>
+</html>

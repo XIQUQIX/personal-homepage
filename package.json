@@ -1,0 +1,18 @@
+{
+  "name": "datasci-commander-homepage",
+  "version": "1.0.0",
+  "description": "A static homepage project using vanilla HTML5, CSS3, and ES6+ modules",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "homepage",
+    "ES6",
+    "vanilla-js"
+  ],
+  "author": "",
+  "license": "MIT"
+}
