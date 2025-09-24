@@ -15,9 +15,13 @@ sun.rongj@northeastern.edu
 ## 🎓 Class Information
 
 **Course**: CS5610 - Web Development
+
 **Instructor**:  John Alexis Guerra Gómez
+
 **Semester**: Fall 2025  
+
 **Institution**: Northeastern University  
+
 **Class Link**: https://northeastern.instructure.com/courses/226004
 
 ## Project Objective
