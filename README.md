@@ -71,7 +71,8 @@ This project utilized AI assistance for development efficiency:
 ### Tools Used:
 - **Claude 3.5 Sonnet**: Code architecture, CSS animations, and documentation
 - **GitHub Copilot**: Code completion and utility functions
-- **ChatGPT**: Content refinement and technical explanations
+- **ChatGPT-4O**: Content refinement and technical explanations
+- **Grok**: Code explanation
 
 ### Usage Details:
 - **Code Generation**: Initial boilerplate and component structure
