@@ -5,13 +5,12 @@ Implementing this homepage using vanilla HTML5, CSS3 and ES6+.
 
 ![Project Banner](./assets/screenshot-main.png)
 
-## 👤 Author
+## Author
 
-**[Your Name]**  
+**Rongjia Sun**  
 *Data Science Graduate Student*  
 Northeastern University  
-📧 your.email@neu.edu  
-🔗 [GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
+sun.rongj@northeastern.edu 
 
 ## 🎓 Class Information
 
@@ -21,7 +20,7 @@ Northeastern University
 **Institution**: Northeastern University  
 **Class Link**: https://northeastern.instructure.com/courses/226004
 
-## 🎯 Project Objective
+## Project Objective
 
 Create a professional personal homepage that showcases my expertise in Data Science, Computer Vision, and AI/ML technologies while demonstrating proficiency in modern web development using vanilla HTML5, CSS3, and ES6+ JavaScript modules.
 
@@ -31,7 +30,7 @@ Create a professional personal homepage that showcases my expertise in Data Scie
 - **Creative Differentiation**: applied mp4 video in my projects html
 - **Modern Web Standards**: Use cutting-edge web technologies without frameworks or libraries
 
-## 📸 Screenshots
+## Screenshots
 
 ### Homepage -  Dashboard
 <img width="1920" height="974" alt="image" src="https://github.com/user-attachments/assets/fccc44e7-8acc-4860-a6c9-6a6180554e94" />
@@ -43,7 +42,7 @@ Create a professional personal homepage that showcases my expertise in Data Scie
 *Comprehensive project showcase with filtering and detailed information*
 
 
-## 🔧 Technical Features
+## Technical Features
 
 ### Core Technologies
 - ✅ **HTML5**: Semantic markup with ARIA accessibility
