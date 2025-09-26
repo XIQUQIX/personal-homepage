@@ -1,6 +1,8 @@
 # personal-homepage
 Implementing this homepage using vanilla HTML5, CSS3 and ES6+.
 
+You could view the introduction video on this website. https://www.bilibili.com/video/BV1ybJSzLEWc/?vd_source=62306503b5b843c47f7c17a70a2ac824
+
 # Data Science Commander - Personal Homepage
 
 https://personalhomepage0.netlify.app/
