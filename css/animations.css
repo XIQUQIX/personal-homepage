@@ -923,4 +923,7 @@
   .glitch-text::after {
     display: none; /* Simplify glitch effect on small screens */
   }
+
 }
+
+/*  I found 12 instances of `!important` in the css files (this and components.css) */
