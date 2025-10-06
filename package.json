@@ -13,6 +13,11 @@
     "ES6",
     "vanilla-js"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": "Rongjia Sun",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2"
+  }
 }
