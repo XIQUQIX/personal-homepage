@@ -92,3 +92,8 @@ All AI-generated code was thoroughly reviewed, tested, and customized to meet pr
 Follow the build instructions above and launch your professional presence!
 
 *Built with ⚡ vanilla web technologies and ❤️ by a Data Science Commander*
+
+
+ <!-- Adding comments here: -->
+ <!-- The site doesn't appear to be fully w3c compliant. It has 2 errors: "Error: End tag section seen, but there were open elements". And, "Error: Unclosed element" -->
+ <!-- I did not find any eslint configuration in the codebase. -->
